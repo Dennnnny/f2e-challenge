@@ -2,9 +2,15 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import styled from "styled-components";
+
+const Style = styled.div`
+  color: red;
+`
+
 function App() {
   return (
-    <div className="App">
+    <Style className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -16,10 +22,10 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React Ts Hello
         </a>
       </header>
-    </div>
+    </Style>
   );
 }
 
