@@ -1,6 +1,6 @@
-import { isEmpty, map, path } from "ramda";
+import { isEmpty, map } from "ramda";
 import { useEffect, useState } from "react";
-import { IoCallOutline, IoChevronForwardOutline, IoLocationSharp, IoTimeOutline } from "react-icons/io5";
+import { IoCallOutline, IoLocationSharp, IoTimeOutline } from "react-icons/io5";
 import { useParams } from "react-router";
 import styled from "styled-components";
 import { getDetail } from "../../tool/handleFetch";

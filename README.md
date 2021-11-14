@@ -3,13 +3,14 @@ The F2E week1
 以往都是直接使用react/next而沒有搭配過ts
 所以這次打算嘗試加入ts
 
-有使用到 storybook 因為平常開發就會使用了 所以就照著平常的開發方式
+我想得太天真了
+以為可以在每天花一點點時間就完成ＱＱ
+結果還是弄到最後一刻
+還有些東西沒有做的很滿意ＱＱ
 
-待完成事項：
-- search 頁面先做
-- detail 頁
-- fetch 要用到apikey
-- RWD 
-- 最後把readme 補完
-- Footer補一些資訊
-- 不是最後但非常重要的是 ： 推版ＱＱ 還不確定推哪裡 應該會是 github pages試試看
+需要改進的地方有
+1. 時間規劃
+2. 這次因為用了ts也有遇到不少平常不會有的問題 所以拖到了開發進度
+3. RWD的部分 覺得可以做更好ＱＱ
+
+原設計稿：[figma by 詩詩小姐](https://www.figma.com/file/TmtzWWrDvpysZ549ZLKpMk/Week1---%E5%8F%B0%E7%81%A3%E6%97%85%E9%81%8A%E6%99%AF%E9%BB%9E%E5%B0%8E%E8%A6%BD)

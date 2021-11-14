@@ -3,7 +3,7 @@ import { isEmpty, map, path } from "ramda"
 import { useEffect, useState } from "react"
 import styled from "styled-components"
 import { TopicList } from "../../tool/configs"
-import { getList, getSearchList } from "../../tool/handleFetch"
+import { getSearchList } from "../../tool/handleFetch"
 import { ApiType } from "../../tool/typeConfig"
 import { Footer } from "../Footer"
 import { Header } from "../Header"
@@ -53,7 +53,6 @@ export const Search =({
   const topic = path(["topic"])(queryString.parse(window.location.search)) || ""
   const location = path(["location"])(queryString.parse(window.location.search)) || ""
   const query = path(["query"])(queryString.parse(window.location.search)) || ""
-  const [ error, setError ] = useState<boolean>(false)
   const [ triggerSearch, setTriggerSearch ] = useState<boolean>(false)
 
   useEffect(()=>{
@@ -63,7 +62,7 @@ export const Search =({
       if(topic === item.value) {
         getSearchList(topic,`${location}`,`${query}`).then(setSearchList)
       }else{
-        setError(true)
+        setSearchList([])
       }
     }
   },[topic,location,query,triggerSearch])
