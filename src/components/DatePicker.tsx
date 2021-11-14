@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
 import styled from "styled-components";
-import { map, keys, values, compose, path, isEmpty, isNil } from "ramda";
+import { isEmpty, isNil } from "ramda";
 import useOutsideClick from "../tool/useOutsideClick";
 import Datepicker from "react-multi-date-picker";
 import "react-multi-date-picker/styles/colors/yellow.css"

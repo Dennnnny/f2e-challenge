@@ -1,9 +1,8 @@
 import { useRef, useState } from "react";
 import styled from "styled-components";
-import { map, keys, values, filter, path } from "ramda";
+import { map} from "ramda";
 import useOutsideClick from "../tool/useOutsideClick";
 import { TopicList } from "../tool/configs";
-import queryString from "query-string"
 type TopicPickerProps = {
   setApiQuery: Function
 }
@@ -136,11 +135,6 @@ const TopicPickerStyle = styled.div<TopicPickerStyleProps>`
     }
   }
 `
-
-type TopicType = {
-  value: string,
-  displayName: string
-}
 
 export const TopicPicker = ({
   // type,

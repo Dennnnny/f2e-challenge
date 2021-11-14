@@ -148,7 +148,7 @@ export const Detail = ({
   
   useEffect(()=>{
     getDetail(key, id).then(setDetails)
-  },[])
+  },[id, key])
   return (
     <DetailStyle>
       <Header secondary/>

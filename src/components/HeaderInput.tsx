@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { DatePicker } from "./DatePicker";
 import styled from "styled-components";
 import { LocationPicker } from "./LocationPicker";
